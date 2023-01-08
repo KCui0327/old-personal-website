@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: 'https://kcui0327.github.io/',
 }
 
 module.exports = nextConfig

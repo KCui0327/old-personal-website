@@ -15,7 +15,7 @@ import pandas from '../imgs/pandas.png';
 import numpy from '../imgs/numpy.png';
 import Nodejs from '../imgs/nodejs.png';
 
-const prefix = '';
+const prefix = 'https://kcui0327.github.io/';
 
 export default function Skills() {
   return (
