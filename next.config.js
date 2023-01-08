@@ -6,8 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/KCui0327.github.io',
-  assetPrefix: '/KCui0327.github.io/',
+  basePath: '/nextjs-pages',
+  assetPrefix: '/nextjs-pages',
 }
 
 module.exports = nextConfig
