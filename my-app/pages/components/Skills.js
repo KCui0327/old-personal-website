@@ -5,7 +5,7 @@ import CPP from '../imgs/cpp.png';
 import C from '../imgs/c.png';
 import js from '../imgs/js.png';
 import html from '../imgs/html.png';
-import css from '../imgs/css.png';
+import css from '../imgs/CSS.png';
 import java from '../imgs/java.png';
 import sql from '../imgs/sql.png';
 import git from '../imgs/git.png';
