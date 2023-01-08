@@ -10,6 +10,9 @@ module.exports = {
         sans: ["Inter", "sans-serif"],
       },
     },
+    variants: {
+      textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    },
   },
   plugins: [],
 }

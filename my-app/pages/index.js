@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
-import Image from 'next/image';
-import Linux from './imgs/linux.png';
-import MNIST from './imgs/mnist.png';
+import Projects from './components/Projects';
+import Footer from './components/Footer'; 
+import Experiences from './components/Experiences';
+import Skills from './components/Skills';
 
 export default function Home() {
   return (
@@ -17,27 +18,12 @@ export default function Home() {
         <section className="min-h-screen">
           <NavBar />
           <HeroSection />
-          <div className="lg:flex gap-10 place-content-center">
-            <div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:bg-teal-600">
-                <h3 className="text-xl py-1 ">Linux Terminal</h3>
-                <Image src={Linux} alt="logo" width={300} height={300} />
-              </div>
-            </div>
-            <div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:bg-teal-600">
-                <h3 className="text-xl py-1">MNIST Prediction Model</h3>
-                <Image src={MNIST} alt="logo" width={300} height={300} />
-              </div>
-            </div>
-            <div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 hover:bg-teal-600">
-                <h3 className="text-xl py-1">Forgetful App</h3>
-              </div>
-            </div>
-          </div>
+          <Skills />
+          <Experiences />
+          <Projects />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
