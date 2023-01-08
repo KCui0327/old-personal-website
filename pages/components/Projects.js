@@ -4,7 +4,7 @@ import MNIST from '../imgs/mnist.png';
 import Terminal from '../imgs/terminal.png';
 import Forgetful from '../imgs/forgetful.png';
 
-const prefix = '/kcui0327.github.io';
+const prefix = '/';
 
 export default function Projects() {
   return (
