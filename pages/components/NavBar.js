@@ -10,7 +10,7 @@ export default function NavBar() {
                 <BsFillLaptopFill className="cursor-pointer text-2xl"/>
             </li>
             <li>
-                <a href="#" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 rounded-md ml-8">Resume</a>
+                <a href="https://drive.google.com/file/d/1QXApa_xWgLrRKpgvcgGULt7MnWRfVYRi/view?usp=sharing" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 rounded-md ml-8">Resume</a>
             </li>
         </ul>
     </nav>
