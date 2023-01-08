@@ -4,8 +4,6 @@ import MNIST from '../imgs/mnist.png';
 import Terminal from '../imgs/terminal.png';
 import Forgetful from '../imgs/forgetful.png';
 
-const prefix = '/';
-
 export default function Projects() {
   return (
     <div className="p-10 mb-12">
@@ -23,7 +21,7 @@ export default function Projects() {
       <div className="lg:flex gap-10">
         <a href="https://github.com/KCui0327/CNN-MNIST-TENSORFLOW">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-              <Image src={prefix + MNIST} width={150} height={150} className="mx-auto"/>
+              <Image src={MNIST} width={150} height={150} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2"> MNIST Prediction Model</h3>
               <p className="py-2 max-w-sm">
                 A neural network model that predicts handwritten digits from the MNIST dataset.
@@ -32,7 +30,7 @@ export default function Projects() {
           </a>
         <a href="https://github.com/KCui0327/linux_terminal">
           <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-            <Image src={prefix + Terminal} width={235} height={150} className="mx-auto"/>
+            <Image src={Terminal} width={235} height={150} className="mx-auto"/>
             <h3 className="text-lg font-medium pt-8 pb-2">Linux Terminal Emulator</h3>
             <p className="py-2 max-w-sm">
               A linux terminal emulator that supports basic commands such as ls, cd, mkdir, etc.
@@ -41,7 +39,7 @@ export default function Projects() {
         </a>
         <a href="https://github.com/KCui0327/forgetful-text">
           <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-            <Image src={prefix + Forgetful} width={160} height={200} className="mx-auto"/>
+            <Image src={Forgetful} width={160} height={200} className="mx-auto"/>
             <h3 className="text-lg font-medium pt-8 pb-2">Forgetful App</h3>
             <p className="py-2 max-w-sm">
               Forgetful is a web app that allows users to create and manage their own to-do lists.
