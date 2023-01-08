@@ -6,7 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? 'https://kcui0327.github.io' : undefined
+  basePath: '/KCui0327.github.io',
+  assetPrefix: '/KCui0327.github.io/',
 }
 
 module.exports = nextConfig
