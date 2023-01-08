@@ -21,7 +21,7 @@ export default function Skills() {
     <div className="p-10">
         <h3 className="text-3xl py-1">Technical Skills</h3>
         <h4 className="text-xl py-3 text-gray-800">Programming Languages</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
             <ImageColumns description="Python" image={Python}/>
             <ImageColumns description="C++" image={CPP}/>
             <ImageColumns description="C" image={C}/>
@@ -32,7 +32,7 @@ export default function Skills() {
             <ImageColumns description="CSS3" image={css}/>
           </div>
         <h4 className="text-xl py-3 text-gray-800">Frameworks / Libraries</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
             <ImageColumns description="Git" image={git}/>
             <ImageColumns description="TensorFlow" image={Tensorflow}/>
             <ImageColumns description="pandas" image={pandas}/>
