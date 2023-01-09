@@ -18,7 +18,7 @@ export default function Projects() {
           <span className="text-teal-500 font-bold">Github</span>
         </a>
       </p>
-      <div className="lg:flex gap-10 m-auto">
+      <div className="lg:flex gap-10 mx-0 my-auto">
         <a href="https://github.com/KCui0327/CNN-MNIST-TENSORFLOW">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
               <Image src={MNIST} width={150} height={150} className="mx-auto"/>
