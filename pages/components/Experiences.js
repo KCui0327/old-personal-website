@@ -27,8 +27,8 @@ export default function Experiences() {
                 </div>
                 <div className="mt-3 sm:pr-8">
                     <h3 className="text-lg font-semibold text-gray-800">Lead Web Developer</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 italic">Skule Nite (2022 - Present)</time>
-                    <p className="text-base font-normal text-gray-500">Coded and designed an event website with HTML, CSS, and JavaScript to engage over 1000+ users</p>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-800 italic">Skule Nite (2022 - Present)</time>
+                    <p className="text-base font-normal text-gray-500">Coding and designing an event website with HTML, CSS, and JavaScript to engage over 1000+ users</p>
                 </div>
             </li>
             <li className="relative mb-6 sm:mb-0">
@@ -40,8 +40,8 @@ export default function Experiences() {
                 </div>
                 <div className="mt-3 sm:pr-8">
                     <h3 className="text-lg font-semibold text-gray-900">Lead Electronics Sensors Engineer</h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 italic">University of Toronto Hyperloop Team (2022 - Present)</time>
-                    <p className="text-base font-normal text-gray-500">Leading a team of 10 in programming (C++) and implementing 8 different sensors onto the hyperloop pod</p>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-800 italic">University of Toronto Hyperloop Team (2022 - Present)</time>
+                    <p className="text-base font-normal text-gray-500">Leading a team of 5 in programming (C++) and implementing 10 different sensors onto the hyperloop pod</p>
                 </div>
             </li>
         </ol>
