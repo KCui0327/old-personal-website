@@ -37,7 +37,7 @@ export default function Projects() {
             </p>
           </div>
         </a>
-        <a href="https://github.com/KCui0327/forgetful-text">
+        <a href="https://github.com/KCui0327/forgetful">
           <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
             <Image src={Forgetful} width={160} height={200} className="mx-auto"/>
             <h3 className="text-lg font-medium pt-8 pb-2">Forgetful App</h3>
