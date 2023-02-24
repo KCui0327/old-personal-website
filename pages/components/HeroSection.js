@@ -16,7 +16,7 @@ export default function HeroSection() {
         </div>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-5xl mx-auto">
             Computer engineering student with deep passion 
-            in machine learning and software development.
+            in computer architecture and system software.
             A proactive problem-solver with strong 
             adaptability in ambiguous environments 
             developed through various competitions and
